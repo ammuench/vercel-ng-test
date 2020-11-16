@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DootComponent } from './pages/doot/doot.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DootComponent
   ],
   imports: [
     BrowserModule,
