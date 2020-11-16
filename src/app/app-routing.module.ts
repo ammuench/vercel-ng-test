@@ -5,7 +5,7 @@ import { DootComponent } from './pages/doot/doot.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent},
-  { path: '/doot', component: DootComponent}
+  { path: 'doot', component: DootComponent}
 ];
 
 @NgModule({
